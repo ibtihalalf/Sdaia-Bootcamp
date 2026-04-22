@@ -846,3 +846,52 @@ Alternately, you can install this by running `pip install pycaret[models]`
                 ('normalize', TransformerWrapper(transformer=StandardScaler())),
                 ('trained_model', LGBMRegressor(n_jobs=-1, random_state=42))])
 2026-04-22 15:20:04,512:INFO:save_model() successfully completed......................................
+2026-04-22 15:34:44,882:INFO:Initializing evaluate_model()
+2026-04-22 15:34:44,883:INFO:evaluate_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2026-04-22 15:34:44,895:INFO:Initializing plot_model()
+2026-04-22 15:34:44,895:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), plot=pipeline, scale=1, save=False, fold=KFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-04-22 15:34:44,895:INFO:Checking exceptions
+2026-04-22 15:34:44,898:INFO:Preloading libraries
+2026-04-22 15:34:44,901:INFO:Copying training dataset
+2026-04-22 15:34:44,901:INFO:Plot type: pipeline
+2026-04-22 15:34:44,945:INFO:Visual Rendered Successfully
+2026-04-22 15:34:45,020:INFO:plot_model() successfully completed......................................
+2026-04-22 15:35:39,762:INFO:Initializing evaluate_model()
+2026-04-22 15:35:39,763:INFO:evaluate_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), fold=None, fit_kwargs=None, plot_kwargs=None, feature_name=None, groups=None)
+2026-04-22 15:35:39,772:INFO:Initializing plot_model()
+2026-04-22 15:35:39,772:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), plot=pipeline, scale=1, save=False, fold=KFold(n_splits=10, random_state=None, shuffle=False), fit_kwargs={}, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=False, system=True, display=None, display_format=None)
+2026-04-22 15:35:39,772:INFO:Checking exceptions
+2026-04-22 15:35:39,774:INFO:Preloading libraries
+2026-04-22 15:35:39,777:INFO:Copying training dataset
+2026-04-22 15:35:39,777:INFO:Plot type: pipeline
+2026-04-22 15:35:39,824:INFO:Visual Rendered Successfully
+2026-04-22 15:35:39,874:INFO:plot_model() successfully completed......................................
+2026-04-22 15:35:55,311:INFO:Initializing plot_model()
+2026-04-22 15:35:55,312:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), plot=residuals, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-04-22 15:35:55,312:INFO:Checking exceptions
+2026-04-22 15:35:55,318:INFO:Preloading libraries
+2026-04-22 15:35:55,321:INFO:Copying training dataset
+2026-04-22 15:35:55,321:INFO:Plot type: residuals
+2026-04-22 15:35:55,413:INFO:Fitting Model
+2026-04-22 15:35:55,451:INFO:Scoring test/hold-out set
+2026-04-22 15:35:55,671:INFO:Visual Rendered Successfully
+2026-04-22 15:35:55,720:INFO:plot_model() successfully completed......................................
+2026-04-22 15:35:55,720:INFO:Initializing plot_model()
+2026-04-22 15:35:55,720:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), plot=feature, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-04-22 15:35:55,720:INFO:Checking exceptions
+2026-04-22 15:35:55,723:INFO:Preloading libraries
+2026-04-22 15:35:55,725:INFO:Copying training dataset
+2026-04-22 15:35:55,725:INFO:Plot type: feature
+2026-04-22 15:35:55,725:WARNING:No coef_ found. Trying feature_importances_
+2026-04-22 15:35:55,800:INFO:Visual Rendered Successfully
+2026-04-22 15:35:55,848:INFO:plot_model() successfully completed......................................
+2026-04-22 15:35:55,849:INFO:Initializing plot_model()
+2026-04-22 15:35:55,849:INFO:plot_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x307ca0150>, estimator=LGBMRegressor(n_jobs=-1, random_state=42), plot=error, scale=1, save=False, fold=None, fit_kwargs=None, plot_kwargs=None, groups=None, feature_name=None, label=False, verbose=True, system=True, display=None, display_format=None)
+2026-04-22 15:35:55,849:INFO:Checking exceptions
+2026-04-22 15:35:55,851:INFO:Preloading libraries
+2026-04-22 15:35:55,853:INFO:Copying training dataset
+2026-04-22 15:35:55,853:INFO:Plot type: error
+2026-04-22 15:35:55,922:INFO:Fitting Model
+2026-04-22 15:35:55,922:INFO:Scoring test/hold-out set
+2026-04-22 15:35:56,021:INFO:Visual Rendered Successfully
+2026-04-22 15:35:56,092:INFO:plot_model() successfully completed......................................
